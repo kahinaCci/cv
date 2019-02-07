@@ -4,11 +4,31 @@ text-align: center
 h1{
    color: yellow;
    text-align: center;
+   font-size: 14px;
+   font-style: italic;
+  
+ 
    }
+   
+p{
+margin-left: 40px;
+font-size: 20px;
+}
+
+li{
+font-size: 20px;
+}
+
+a{
+margin-left: 40px;
+}
    
 h2{  
  color: green;
 margin-left: 40px;
+ border: solid 2px blue;
+ width: 700px;
+ font-size: 25px;
 } 
   
 h3{   
@@ -18,4 +38,47 @@ color: blue;
 h4{
 color: green;  
 }
+h5{
+color: blue;  
+}
+
+.page{ 
+border: solid 2px blue;
+ width: 1400px;
+margin: auto;
+
+
+}
+
+.photo{
+margin-left: 1000px;
+
+
+}
+.titre{
+margin-left: 175px; 
+color: black;
+
+}
+
+.Informations{
+margin: auto;
+}
+
+<div class = "photo"> 
+                <img src="photo_anonyme.jpg" alt="photo pour CV" height="150" />
+            </div>
+
+
+}
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+
+
+
 
